@@ -2,7 +2,7 @@
   {
     "kind": 2,
     "language": "sparql",
-    "value": "PREFIX biblioteka:<http://www.semanticweb.org/ontologies/2010/biblioteka.owl#>\r\n\r\nSELECT ?x WHERE {\r\n    ?x a biblioteka:Książka.\r\n    ?x biblioteka:maAutora biblioteka:Autor1\r\n}",
+    "value": "PREFIX biblioteka:<http://www.semanticweb.org/ontologies/2010/biblioteka.owl#>\r\n\r\nSELECT ?x WHERE {\r\n    ?x a biblioteka:Publikacja.\r\n    ?x biblioteka:znajdujeSieW biblioteka:Nr_1_w_Katowicach\r\n}",
     "metadata": {}
   }
 ]
